@@ -1,0 +1,36 @@
+//****************** Operation mode ******************//
+operating_mode = repair_building_mesh
+
+//****************** Path configuration ******************//
+//--- path of input mesh ---//
+mesh_in_dir = C:/data/input
+
+//--- path of output_directory mesh ---//
+out_dir = C:/data/output
+
+//****************** Repair building mesh configurations ******************//
+//****** fill holes ******//
+//--- -1: do nothing; 0: simple hole to fill; 1: complex hole to fill; 2: stitch then simple hole fill; 3: stitch only ---//
+pre_hole_filling_option = 1
+post_hole_filling_option = 3
+
+//--- minimum boundary size for simple hole to fill (option = 0) ---//
+allowed_boundary_size = 50
+
+//--- for complex hole detection, check if there are overlapping triangles (option: 1) ---//
+intersected_area_ratio = 0.99
+
+//--- check collinear holes and add hole missing edges (in degree) (option: 1) ---//
+edge_overlap_angle = 2.0
+
+//--- check if it is a planar hole when the value is smaller than the threshold (option: 1) ---//
+planar_hole_thres = 0.1
+
+//--- for planar hole edge complement (option: 1) ---//
+planar_hole_point_to_plane_dis_thres = 0.1
+
+//--- check face self-intersection (option: 1) ---//
+point_to_plane_dis_thres = 0.5
+
+//--- simplest repair ---//
+enable_simplest_repair = true
