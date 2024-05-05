@@ -14,7 +14,8 @@ The complete source code will be made available following the acceptance of our 
 </div>
 
 ## Usage
-The program is designed to run and compile exclusively on the Windows 10 operating system. To execute the code, use the following command:
+The program has currently only been tested on Windows, but we will also test it on Linux and release the corresponding executable files later. 
+To run the file on Windows, please enter the following command:
 ```
 .\building_pcc_data.exe [your_path]\config.txt
 ```
