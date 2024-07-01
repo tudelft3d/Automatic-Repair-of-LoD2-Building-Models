@@ -2,7 +2,7 @@
 
 This repository provides the implementation for the automatic repair of LoD2 building models. It is primarily developed using C++ and leverages open-source libraries such as [CGAL](https://www.cgal.org/) and [Easy3D](https://github.com/LiangliangNan/Easy3D).
 
-Our paper, [Filling holes in LoD2 building models](https://arxiv.org/abs/2404.15892), has been accepted for presentation at the 3D Geoinfo 2024 conference. 
+Our paper, [Filling holes in LoD2 building models](https://isprs-annals.copernicus.org/articles/X-4-W5-2024/171/2024/), has been accepted for presentation at the 3D Geoinfo 2024 conference. 
 We are currently releasing the core module of our code, which focuses on mesh hole filling, along with the corresponding executable. 
 We are also preparing an extended journal paper that will address three types of errors in building models: mesh geometric holes, incorrect normal orientations, and inner faces. 
 The complete source code will be made available following the acceptance of our full paper.
@@ -25,13 +25,15 @@ Details about the parameters can be found in the `config.txt` file.
 ## Citation
 If you find our work useful in your research, please consider citing: 
 ```
-@misc{gao2024filling,
-      title={Filling holes in LoD2 building models}, 
-      author={Weixiao Gao and Ravi Peters and Hugo Ledoux and Jantien Stoter},
-      year={2024},
-      eprint={2404.15892},
-      archivePrefix={arXiv},
-      primaryClass={cs.CG}
+@Article{isprs-annals-X-4-W5-2024-171-2024,
+AUTHOR = {Gao, W. and Peters, R. and Ledoux, H. and Stoter, J.},
+TITLE = {Filling holes in LoD2 building models},
+JOURNAL = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+VOLUME = {X-4/W5-2024},
+YEAR = {2024},
+PAGES = {171--177},
+URL = {https://isprs-annals.copernicus.org/articles/X-4-W5-2024/171/2024/},
+DOI = {10.5194/isprs-annals-X-4-W5-2024-171-2024}
 }
 ```
 
